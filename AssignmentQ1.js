@@ -371,5 +371,12 @@ for (let K = 10; K <= 100; K++) {
 console.log("Sum of even numbers from 10 to 100: " + totalsum);
 
 //Q29
+let arr1 = [43, "what", 9, true, "cannot", false, "be", 3, true];
+
+// For loop மூலம் முரணாக உருப்படிகளை வெளியிட:
+for (let U = arr1.length - 1; U >= 0; U--) {
+    console.log(arr1[U]);
+}
 
 
+//30
